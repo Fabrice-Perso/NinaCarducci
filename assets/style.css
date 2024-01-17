@@ -97,6 +97,7 @@ body {
 	text-align: center;
 	padding-block: 2em;
 }
+
 .gallery .nav {
 	justify-content: center;
 }
@@ -105,6 +106,9 @@ body {
 	background-color: #BEB45A;
 	border-radius:0 ;
 } */
+.nav-item{
+	cursor: pointer;
+}
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
     color: #fff; /* Texte blanc pour un contraste élevé */
     background-color: #1C6474; /* Bleu foncé déjà utilisé sur votre site */
@@ -112,6 +116,7 @@ body {
 }
 .nav-pills .nav-link {
 	color: #000
+
 }
 .item-column {
 	position: relative;
